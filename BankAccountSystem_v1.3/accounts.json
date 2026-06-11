@@ -1,0 +1,73 @@
+{
+    "1234100004860": {
+        "acc_no": 1234100004860,
+        "holder_name": "Anwar",
+        "balance": 28000,
+        "transactions": [
+            {
+                "txn_id": "TXN0001",
+                "type": "deposit",
+                "amount": 20000,
+                "timestamp": "2026-06-11 00:03:36"
+            },
+            {
+                "txn_id": "TXN0003",
+                "type": "withdraw",
+                "amount": 7000,
+                "timestamp": "2026-06-11 00:03:36"
+            },
+            {
+                "txn_id": "TXN0007",
+                "type": "deposit",
+                "amount": 5000,
+                "timestamp": "2026-06-11 00:18:12"
+            },
+            {
+                "txn_id": "TXN0008",
+                "type": "received",
+                "amount": 5000,
+                "from": 1234100001252,
+                "timestamp": "2026-06-11 00:18:12"
+            }
+        ]
+    },
+    "1234100001252": {
+        "acc_no": 1234100001252,
+        "holder_name": "Prakhar",
+        "balance": 24000,
+        "transactions": [
+            {
+                "txn_id": "TXN0004",
+                "type": "deposit",
+                "amount": 7000,
+                "timestamp": "2026-06-11 00:03:36"
+            },
+            {
+                "txn_id": "TXN0005",
+                "type": "received",
+                "amount": 7000,
+                "from": 1234100004860,
+                "timestamp": "2026-06-11 00:03:36"
+            },
+            {
+                "txn_id": "TXN0006",
+                "type": "withdraw",
+                "amount": 5000,
+                "timestamp": "2026-06-11 00:18:12"
+            }
+        ]
+    },
+    "1234100008856": {
+        "acc_no": 1234100008856,
+        "holder_name": "Nikhil",
+        "balance": 7500,
+        "transactions": [
+            {
+                "txn_id": "TXN0002",
+                "type": "withdraw",
+                "amount": 5000,
+                "timestamp": "2026-06-11 00:03:36"
+            }
+        ]
+    }
+}
